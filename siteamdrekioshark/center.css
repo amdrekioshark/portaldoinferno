@@ -1,0 +1,14 @@
+/* Container para a grade de imagens */
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 colunas */
+    gap: 10px; /* Espaçamento entre as imagens */
+    padding: 10px;
+}
+
+/* Estilo para as imagens dentro da grade */
+.image-grid img {
+    width: 100%; /* As imagens ocuparão 100% do espaço das células da grade */
+    height: auto; /* Manter a proporção das imagens */
+    border-radius: 8px; /* Opcional: adicionar borda arredondada */
+}
